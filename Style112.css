@@ -1,0 +1,35 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/3b/8a/d2/3b8ad2c7b1be2caf24321c852103598a.jpg);
+     background-blend-mode: difference;
+     font-family:   font-family: 'Brush Script MT', cursive;
+      }
+
+  div, #shotgun {
+background-color: #4aa49b;
+border: ridget snow 4vh;
+}
+   p {
+color: white;
+     font-size: 26px;
+     font-family: ;
+     background-color: #ed6dc3;
+     filter: blur(4%);
+     transform: rotate(5deg);
+     border: solid dimgray 5px;
+     margin-left: 4px;
+     box-shadow: rgb(076,73,4) 9px 8px 4px 2px;
+     position: relative;
+     
+     
+     }
+   
+   div, #hot {
+width: 94%;
+     height: 100%;
+     align-items:center;
+     align-content:block;
+     border: inset #c24e52 12px;
+     border:12px  12px;
+     text-align: center;
+     box-shadow: darkred;
+   }
