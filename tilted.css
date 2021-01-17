@@ -1,0 +1,48 @@
+div {
+text-align: center;
+margin: center;
+justify-items: center;
+}
+
+img {
+border: solid  2px;
+box-shadow: REBECCAPURPLE 3px 10px 8px 7px;
+transform: rotate(10deg);
+padding: 5px 3px 1px ;
+border-radius: 75px 4px 75px 4px;
+z-index:2;
+border-color: hotpink olive darkcyan dimgray;
+border-width: 4px;
+filter: saturation(13%);
+flex-box: 
+}
+
+body {
+background-color: GOLDENROD;
+
+}
+
+
+img {
+ background-image: url(examples/images/image-384.jpg);
+
+ background-image: 
+   -webkit-image-set(
+     url(examples/images/image-384.jpg) 1x,
+     url(examples/images/image-768.jpg) 2x,
+   );
+ background-image: 
+   image-set(
+     url(examples/images/image-384.jpg) 1x,
+     url(examples/images/image-768.jpg) 2x,
+   );
+}
+}
+
+
+@media (min-width: 40em) {
+ /* Probably some parent element that limits the img width */
+ main {
+   width: 80%;
+ }
+}
