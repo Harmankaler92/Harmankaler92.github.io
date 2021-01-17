@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+  ...
+
+<script>
+var cw_to;
+function resortImages()
+{
+    var $container = $('#portfolio-items ul');
+    $li = $container.children('li');
+
+    $li.sort(function(a,b) {
+        var an = $(a).attr('data-height')/$(a).attr('data-width');
+        var bn = $(b).attr('data-height')/$(b).attr('data-width');
+
+        if(an <= bn) {
+		return 1;
+	} else if(an > bn) {
+		return -1;
+	} else {
+                return 1;
+        }
+	return 0;
+    })
+    var i = 0;
+    $li = $li.slice(0,8);
+    // $li.each(function(){
+    $($li.get().reverse()).each(function(){
+        if (i > 8) return false;
+        i++;
+        $(this).detach().prependTo($container);
+    });
+}
+function calcWidth(timeout, callback)
+{
+    if (typeof timeout != "undefined" && timeout != 0) {
+        clearTimeout(cw_to);
+        cw_to = setTimeout(function(){
+            resizeGrid();
+        }, 100);
+    } else {
+        resizeGrid(callback);
+    }
+}
+
+function resizeGrid(callback)
+{
+    var $container = $('#portfolio-items ul');
+    $container.find('li').each(function(){
+        // var width = ( 100 * parseFloat($(this).css('width')) / parseFloat($(this).parent().css('width')) ) + '%';
+        var width_k    = parseInt($(this).css('width'))/$(this).attr('data-width');
+        var height     = $(this).attr('data-height')*width_k;
+        $(this).css('height', height+"px");
+        $(this).find('img').attr("width",parseInt($(this).css('width'))).attr("height", height);
+        
+    });
+    if (typeof callback == 'function') {
+        callback();
+    }
+}
+$(function(){
+    var $container = $('#portfolio-items ul');
+    // resortImages();
+        $('#portfolio-items ul li').css({opacity:1});
+    $('.site-list').removeClass('collapse');
+    if ($(window).width() < 500) {
+        $( "<li class='single-portfolio mix col-full-3'><div class='tac'><i class='xxx-banner' data-width='300' data-height='250'></i></div></li>" ).insertAfter( ".single-portfolio:nth-child(8n+3)" );
+    }
+        calcWidth(0, function(){$('.portfolio-naming').show();});
+    });
+</script>
+
+
+ <head>
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+  <title>Welcome to Bluesite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta name="Free Porn Gallaries ads free, still under constrcution." >
+
+<content="This is porn gallary site i am building totally free of afs. watch porn pictures. pornhub models">
+  <meta name="keywords" content="porn ,nude pictures ,gallaries,hot babes">
+
+  <meta name="open source" content="Annuymous">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+
+  <link rel="stylesheet" href="2style.css">
+
+ 
+
+
+</head>
+ <body>
+
+<span>
+<h1>Welcome to Soon to be a great ads free porn picture gallary<h1></span>n
+
+
+  <img id="fire"
+    src="https://cdni.pornpics.com/1280/1/285/52712576/52712576_012_f2c1.jpg"
+    width="520px" height="auto">
+
+<img id="hotmess"src="https://cdni.pornpics.com/1280/7/74/32572406/32572406_058_6e53.jpg" width="400px" height="auto">
+<img id="hot"src="http://cdni.viewgals.com/1280/1/47/84868853/84868853_012_493e.jpg" width="570px" height="auto">
+
+<img id="fireball" src="http://images.sxx.com/pic_teasers/60473/06c7c6d42d/nude/01/60473_13.jpg" width="450" height="auto">
+
+<img id="rod"src="https://cdni.pornpics.com/1280/1/314/81496080/81496080_009_46cf.jpg" width="450px" height="auto">
+
+<img id="aggg"src="https://cdni.pornpics.com/1280/5/170/38879589/38879589_004_0776.jpg" width="400px" height= "auto">
+
+<img id="sleep" src="https://cdni.pornpics.com/1280/1/8/72885915/72885915_004_6f89.jpg" width="400px" height="auto">
+
+<li>
+<img id="latin"src="https://cdni.pornpics.com/1280/5/180/75801002/75801002_007_b0a6.jpg" width="400px" height="auto">	
+
+
+<img src="http://www.sigmapic.com/images/xxxpornimages.net/galleries/3/763/3_933.jpg" width="550" height="auto">
+
+
+<img src="http://www.sigmapic.com/images/xxxpornimages.net/galleries/3/763/4_130.jpg" width="500" height="auto">
+
+
+<img src="http://www.sigmapic.com/images/xxxpornimages.net/galleries/3/763/6_518.jpg" width="500" height="auto">
+
+
+   <script src="script.js"></script>
+   </div>
+ <footer style="font-color: white;"><a id="nextpage"href="https://nfi1xm.mimo.run/index.html" name="Page2">Next Page</footer>
+</div>
+</body>
+
+</html>

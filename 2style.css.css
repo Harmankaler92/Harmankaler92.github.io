@@ -1,0 +1,186 @@
+img {
+
+float: left;
+border: solid maroon 12px;
+border-radius: 15px 10px 50px 10px;
+padding: 65px ;
+margin: 50px;
+box-shadow: rgb(44,18,21) 5px 10px 15px 5px;
+  position: rotate(15deg);
+  background-color: snow;
+}
+
+
+
+body {
+background-color: LIGHTSLATEGREY;
+
+box-shadow: rgb(0,0,0) 15px 55px 15px 5px;
+border-style: inset;
+border : double DARKSLATEGREY 10px;
+}
+
+div {
+text-align: center;
+background-color: HONEYDEW;
+margin: 0px 0 0px 0;
+border-radius: 60px 20px;
+
+
+padding: 100px 100px 200px 100px;
+
+
+transform: scale3d;
+
+
+
+
+border-radius: 5px;
+  
+box-shadow: rgb(0,0,0) 15px 5px 15px 5px;
+position: relative;
+transition: 0.5s ease;
+z-index: 1;
+  position: readonly;
+
+}
+h1 {
+font-style: initial;
+font-size: 32px;
+color: pink;
+box-shadow: rgb(0,0,0) 15px 5px 15px 5px;
+font-family: fantasy;
+border-radius: dotted olive 15px;
+background-color: snow;
+border: dotted DARKOLIVEGREEN 20px;
+padding: 115px 15px 110px 10px;
+margin: 100px 100px;
+
+
+
+
+}
+
+img, .fire {
+background-image : URL("")
+
+height: auto;
+padding : 5px 2px 5px;
+border: dotted olive 5px;
+}
+
+
+.container {
+background-color: aliceblue;
+width: 70%;
+lengh: auto;
+border: dotted olive 1px;
+
+
+
+
+margin: center;
+text-align: center;
+border-left-style: solid yelllow 3px;
+box-shadow: rgb(0,0,0) 15px 55px 15px 5px;
+}
+
+
+#id {
+border : solid slateblue 5px;
+border-radius: 5px 5px 5px 5px;
+transform-origin: matrix;
+padding : 5px 2px 5px;
+
+}
+
+span {
+background-color: blue;
+color: SLATEGRAY;
+border: double voilet 10px;
+padding : 5px 2px 5px;
+border-radius: dotted olive 15px;
+
+}
+
+#rod {
+border: solid black 5px;
+padding : 5px 2px 5px;
+border-radius: dotted olive 15px;
+}
+
+#aggg {
+border: solid black 5px;
+padding : 5px 2px 5px;
+transform: rotate(2deg)
+border-radius: dotted olive 15px;
+}
+#hot {
+border: solid black 5px;
+animation-timing-function: ease-in-out;
+padding : 5px 2px 5px;
+}
+#hotmess {
+border: solid black 5px;
+padding : 5px 2px 5px;
+border-radius: dotted olive 15px;
+
+}
+#fireball {
+border: solid black 5px;
+transform: rotate(5deg)
+border-radius: 50%;
+bottom: 30px;
+  position: relative
+
+padding : 5px 2px 5px;
+}
+#fire {
+border: solid black 5px;
+position: rotate(90deg);
+padding : 5px 2px 5px;
+}
+
+#latin {
+border: solid black 5px;
+padding : 5px 2px 5px;
+
+}
+#sleep {
+border: solid black 5px;
+position: absoult
+bottom: 5px;
+transition-delay: 1s;
+top: 17px;
+z-index:3;
+padding : 5px 2px 5px;
+transform:rotate (-5deg);
+}
+
+img.shopitemframe{
+    position: relative;
+    height: 100%;
+    width: 100%;
+padding : 5px 2px 5px;
+    z-index: 1;
+}
+
+img.itemicon{
+    position: relative;
+    width: 75%;
+    z-index: 5;
+}
+
+footer {
+text-align: center;
+font-size: 26px;
+border: inlets black 5px;
+border-radius: 10px 5px;
+font-style: underline;
+color: white;
+font-color: white;
+padding-top: 35px;
+
+}
+
+
